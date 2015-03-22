@@ -1,0 +1,79 @@
+/* Empty. Add your own CSS if you like */
+ion-content {
+	background-color: black;
+}
+
+.float-right {
+	float: right;
+}
+
+.bar-footer {
+	height: 50px;
+	background-image: none;
+	background-color: transparent;
+	border-top: none;
+}
+
+.bar-footer .ion-ios-volume-high,
+.bar-footer .ion-ios-volume-low {
+	font-size: 40px;
+	color: #fff;
+	left: 17px;
+	top: 0 !important;
+	position: absolute;
+}
+
+.bar-footer .ion-ios-gear {
+	font-size: 30px;
+	color: #fff;
+	position: absolute;
+	top: 8px !important;
+	right: 17px;
+}
+
+.wave-background {
+	margin: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.sensors {
+}
+
+.scroll {
+	height: 100%;
+}
+
+.car-graph {
+	width: 85.18%;
+	margin: auto;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+@-webkit-keyframes pulse {
+	0% {opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {opacity: 0.0;}
+}
+@-moz-keyframes pulse {
+	0% {opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {opacity: 0.0;}
+}
+@-o-keyframes pulse {
+	0% {opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {opacity: 0.0;}
+}
+@keyframes pulse {
+	0% {opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {opacity: 0.0;}
+}
