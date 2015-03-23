@@ -8,7 +8,7 @@
 			init();
 
 			document.addEventListener("deviceready", function () {
-				vm.beep = $cordovaMedia.newMedia('/android_asset/www/sound/beep.mp3');
+				vm.beep = $cordovaMedia.newMedia('sound/beep.mp3');
 			});
 			vm.mute = window.localStorage.getItem('mute') || false;
 
